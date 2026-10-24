@@ -1,0 +1,12 @@
+bin/
+obj/
+*.user
+.vs/
+# Generated / game data: never commit
+*.bundle
+*.webm
+*.mp4
+tools/Oracle/Out/
+tools/Oracle/Library/
+tools/TestPlayer/Build/
+tools/TestPlayer/Library/

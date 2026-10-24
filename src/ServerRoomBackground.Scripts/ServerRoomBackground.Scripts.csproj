@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ServerRoomBackground.Scripts</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.AudioModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.VideoModule"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\UnityEngine.VideoModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DOTween"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\DOTween.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DOTween.Modules"><HintPath>$(SPTPath)\EscapeFromTarkov_Data\Managed\DOTween.Modules.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

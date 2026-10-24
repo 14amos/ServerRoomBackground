@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ServerRoomBackground.Prepatch/ServerRoomBackground.Prepatch.csproj" />
+    <Project Path="src/ServerRoomBackground.Scripts/ServerRoomBackground.Scripts.csproj" />
+    <Project Path="src/ServerRoomBackground.Server/ServerRoomBackground.Server.csproj" />
+    <Project Path="src/ServerRoomBackground/ServerRoomBackground.csproj" />
+  </Folder>
+</Solution>

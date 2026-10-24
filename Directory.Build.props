@@ -1,0 +1,13 @@
+<Project>
+  <!-- Path to an SPT 4.1.6 install, used for reference assemblies only: dotnet build -p:SPTPath="C:\SPT" -->
+  <PropertyGroup>
+    <SPTPath Condition="'$(SPTPath)' == ''">C:\SPT</SPTPath>
+    <Version>1.0.0</Version>
+    <Authors>amos</Authors>
+    <Deterministic>true</Deterministic>
+    <DebugType>none</DebugType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <PathMap>$(MSBuildThisFileDirectory)=./</PathMap>
+    <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+</Project>
